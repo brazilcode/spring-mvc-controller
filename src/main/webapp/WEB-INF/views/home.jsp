@@ -35,7 +35,7 @@
 				<input type="text" id="parametro1" value="Parametro 1 bean ajax">
 				<input type="text" id="parametro2" value="1">
 				<input type="text" id="parametro3" value="true">
-				<input type="submit" id="enviar" value="Enviar">
+				<button id="enviar">Enviar</button>
 			</li>
 		</ul>
 	</body>
