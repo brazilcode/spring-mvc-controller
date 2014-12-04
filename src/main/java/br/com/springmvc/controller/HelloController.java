@@ -15,13 +15,19 @@ public class HelloController {
 	}
 	
 	@RequestMapping("parametros")
-	public String parametros(String parametro1, String parametro2, String parametro3) {
+	public String parametros(String parametro1, Integer parametro2, Boolean parametro3) {
 		System.out.println(parametro1 + " " + parametro2 + " " + parametro3);
 		return "home";
 	}
 	
 	@RequestMapping("parametrosBean")
 	public String parametrosBean(ParametrosBean parametros) {
+		System.out.println(parametros.toString());
+		return "home";
+	}
+	
+	@RequestMapping("ajax")
+	public String ajax(ParametrosBean parametros) {
 		System.out.println(parametros.toString());
 		return "home";
 	}

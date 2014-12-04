@@ -19,6 +19,9 @@
 
 	<!-- Define pagina inicial da aplicação --> 
 	<mvc:view-controller path="/" view-name="home"/>
+	
+	<!-- Ignora requisições (aos controllers) de conteúdo estático -->
+	<mvc:default-servlet-handler/>
 
 	<!-- Define a localização e extenção das views da aplicação -->
 	<bean
