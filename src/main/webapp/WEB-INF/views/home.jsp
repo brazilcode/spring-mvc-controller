@@ -42,7 +42,6 @@
 		</li> --%>
 		<li>
 			<h2>Validando parâmetros via Bean Validation</h2>
-			<h2>Validando parâmetros via Bean Validation</h2>
 			<form action="beanValidation" method="get">
 				<input name="parametro1" />
 				<form:errors path="parametro1" />
